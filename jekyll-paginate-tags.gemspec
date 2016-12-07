@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.name        = "jekyll-paginate-tags"
   s.summary     = "Generate Pagination for Jekyll tags."
   s.description = "Automatically generate pagination for each tag"
-  s.version     = "2.0.2"
+  s.version     = "2.0.3"
   s.authors     = ["Kenta Ng"]
   s.email       = ["dev@kentaccn.com"]
 

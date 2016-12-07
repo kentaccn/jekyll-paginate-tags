@@ -25,7 +25,7 @@ module Jekyll
         # paginate_path - the explicit paginate path, if provided
         #
         # Returns the pagination path as a string
-        def self.paginate_path_tag(site, num_page, tag_path, paginate_path = site.config['paginate_path'])
+        def self.paginate_path_tag(site, num_page, tag_path, paginate_path = site.config['paginate_tag_path'])
           return nil if num_page.nil?
           return tag_path if num_page <= 1
           format = tag_path.sub(/(\/)+$/,'') + paginate_path

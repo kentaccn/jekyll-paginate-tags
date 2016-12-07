@@ -35,6 +35,7 @@ paginate: 1
 paginate_path: "/p/:num/"
 
 paginate_tag_basepath: '/t/:name/'
+paginate_tag_path: '/page/:num'
 paginate_tag_layout: 'tag-test.html'
 
 # Plugins
